@@ -1,17 +1,93 @@
-<div class="card mb-4">
-    <div class="card-img-wrapper">
-        <<img src="{{member.photoUrl || './assets/user.png'}}" alt="{{member.knownAs}}" class="card-img-top">
-        <ul class="list-inline member-icons animate text-center">
-            <li class="list-inline-item"><button routerLink='/members/{{member.username}}' class="btn btn-primary">
-                <i class="fa fa-user"></i></button></li>
-            <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
-            <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+<div class="row">
+    <div class="card mb-4">
+        <ul>
+            <li>
+                <div class="card-img-wrapper">
+                    <img src="/assets/photosCars/bmw.jpeg" alt="image" class="card-img-top">
+                    <ul class="list-inline member-icons animate text-center">
+                        <li class="list-inline-item"><button class="btn btn-primary">
+                            <i class="fa fa-car"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+                    </ul>
+                </div>
+                <div class="card-body p-1">
+                    <h6 class="card-title text-center mb-1"><i class="mr-2"></i>BMW</h6>
+                    <p class="card-text text-muted text-center">M4</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img-wrapper">
+                    <img src="/assets/photosCars/audi.jpg" alt="image" class="card-img-top">
+                    <ul class="list-inline member-icons animate text-center">
+                        <li class="list-inline-item"><button class="btn btn-primary">
+                            <i class="fa fa-car"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+                    </ul>
+                </div>
+                <div class="card-body p-1">
+                    <h6 class="card-title text-center mb-1"><i class="mr-2"></i>Audi</h6>
+                    <p class="card-text text-muted text-center">RS3</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img-wrapper">
+                    <img src="/assets/photosCars/opelgtrs.jpeg" alt="image" class="card-img-top">
+                    <ul class="list-inline member-icons animate text-center">
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-car"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+                    </ul>
+                </div>
+                <div class="card-body p-1">
+                    <h6 class="card-title text-center mb-1"><i class="mr-2"></i>Opel</h6>
+                    <p class="card-text text-muted text-center">GT-RS</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img-wrapper">
+                    <img src="/assets/photosCars/golf7r.jpeg" alt="image" class="card-img-top">
+                    <ul class="list-inline member-icons animate text-center">
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-car"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+                    </ul>
+                </div>
+                <div class="card-body p-1">
+                    <h6 class="card-title text-center mb-1"><i class="mr-2"></i>VW</h6>
+                    <p class="card-text text-muted text-center">Golf 7 R</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img-wrapper">
+                    <img src="/assets/photosCars/fiat-500.jpeg" alt="image" class="card-img-top">
+                    <ul class="list-inline member-icons animate text-center">
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-car"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+                    </ul>
+                </div>
+                <div class="card-body p-1">
+                    <h6 class="card-title text-center mb-1"><i class="mr-2"></i>Fiat</h6>
+                    <p class="card-text text-muted text-center">500</p>
+                </div>
+            </li>
+            <li>
+                <div class="card-img-wrapper">
+                    <img src="/assets/photosCars/mercedes-c-class.jpeg" alt="image" class="card-img-top">
+                    <ul class="list-inline member-icons animate text-center">
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-car"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-heart"></i></button></li>
+                        <li class="list-inline-item"><button class="btn btn-primary"><i class="fa fa-envelope"></i></button></li>
+                    </ul>
+                </div>
+                <div class="card-body p-1">
+                    <h6 class="card-title text-center mb-1"><i class="mr-2"></i>Mercedes</h6>
+                    <p class="card-text text-muted text-center">C Klasa</p>
+                </div>
+            </li>
         </ul>
-    </div>
-    <div class="card-body p-1">
-        <h6 class="card-title text-center mb-1"><i class="fa fa-user mr-2"></i>
-            {{member.knownAs}}
-        </h6>
-        <p class="card-text text-muted text-center">{{member.city}}</p>
+        
     </div>
 </div>
